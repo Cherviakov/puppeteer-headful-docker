@@ -21,3 +21,8 @@ Current repository showcase how it is done, start.sh running xvfb and then
 node application, Dockerfile specify environmental variable and runs start.sh
 
 Kudos to https://stackoverflow.com/questions/32151043/xvfb-docker-cannot-open-display
+
+### Docker
+
+docker build -t headful .
+docker run -d --name headful headful
